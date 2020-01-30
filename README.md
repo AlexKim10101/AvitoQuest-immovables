@@ -1,10 +1,10 @@
-#Avito-quest: Avito-immovable
+# Avito-quest: Avito-immovable
 
 This work is an implementation of Avito task on January 2020. 
 
-####For start: npm i npm start
+#### For start: npm i npm start
 
-##Task
+## Task
 
 ## Отображать список объектов и расширенную информацию
 - Необходимо получить из JSON API список объектов недвижимости.
