@@ -25,9 +25,9 @@ class ItemContent extends Component {
     	let itemClassName;
     	list = this.props.images.map(function(image, index){
     		if(index == selectedPhotoIndex){
-    			itemClassName='galleryImageItem galleryImageItem--selected';
+    			itemClassName='gallery-image-item gallery-image-item--selected';
     		}else{
-    			itemClassName='galleryImageItem';
+    			itemClassName='gallery-image-item';
     		}
     		return <GalleryNavigationItem 
                 key={index}

@@ -23,8 +23,6 @@ body {
 }
 
 
-
-
 /*home->*/
 
 .main--home{
@@ -238,7 +236,7 @@ body {
     visibility: visible;
 }
 
-.galleryImageItem{
+.gallery-image-item{
     display: block;
     height: 80px;
     width: 100px;
@@ -247,14 +245,14 @@ body {
 }
 
 
-.galleryImageItem--selected{
+.gallery-image-item--selected{
 
     border: 3px solid blue;
 }
 
 
 
-.galleryImageItem__icon{
+.gallery-image-item__icon{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -272,7 +270,34 @@ body {
     text-decoration: none;
     margin-left: 20px;
 }
+/*<-- item*/
 
+.footer{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    overflow: hidden;
+    height: 50px;
+    box-sizing: border-box;
+}
+.footer__text{
+    border-top: 1px solid #CCCCCC;
+    padding-top: 12px;
+    width: 100%;
+    
+    text-align: center;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
 
-
+    text-transform: uppercase;
+    color: #CCCCCC;
+}
 

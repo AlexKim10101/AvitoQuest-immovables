@@ -63,6 +63,7 @@ class Item extends Component {
 			    	/>
     			</main>
     			<footer className="footer">
+                    <div className="footer__text">&copy; 2019-2020</div>
     			</footer>
 			</div>
 
